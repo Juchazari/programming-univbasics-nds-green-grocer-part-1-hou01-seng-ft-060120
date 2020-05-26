@@ -6,7 +6,10 @@ end
 
 def consolidate_cart(cart)
 
-  cart_keys = cart.flat_map{|item| item[:item]}
+  #cart_keys = cart.flat_map{|item| item[:item]}
+  cart.inject({}) do |index|
+    binding.pry
+  end
   binding.pry
 
 end
