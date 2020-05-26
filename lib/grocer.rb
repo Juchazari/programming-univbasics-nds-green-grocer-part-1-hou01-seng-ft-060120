@@ -7,7 +7,7 @@ end
 def consolidate_cart(cart)
 
   #cart_keys = cart.flat_map{|item| item[:item]}
-  cart.inject({}) do |index, object|
+  cart.inject([]) do |index, object|
     binding.pry
   end
   binding.pry
